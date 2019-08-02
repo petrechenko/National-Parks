@@ -1,0 +1,93 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#gradient {
+    width: 100%;
+    height: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    padding: 15px;
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: rgb(226, 236, 235);
+    text-shadow: 2px 2px rgb(23, 78, 74);
+}
+
+.inline {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+input {
+    padding: 0.46em 1.6em;
+    border: solid rgb(133, 199, 193);
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 20%;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+    color: rgb(59, 97, 94);
+    background-color: #DFF2F0;
+    text-align: center;
+    outline: none;
+}
+
+.button,
+#website,
+#Directions {
+    display: inline-block;
+    padding: 0.46em 1.6em;
+    border: 0.1em solid rgb(133, 199, 193);
+    margin: 0 0.2em 0.2em 0;
+    border-radius: 20%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+    color: rgb(59, 97, 94);
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    background-color: rgb(189, 216, 213);
+    text-align: center;
+    transition: all 0.15s;
+    outline: none;
+}
+
+#buttons {
+    padding-top: 50px;
+    display: none;
+}
+
+h4,
+a {
+    font-family: 'Courgette', cursive;
+    color: #032920;
+}
+
+h4 {
+    padding-left: 50px;
+}
+
+p,
+li {
+    font-family: 'Libre Baskerville', serif;
+    color: #032920;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.buttons {
+    text-align: center;
+}
